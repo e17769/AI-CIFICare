@@ -23,4 +23,4 @@ https://makersuite.google.com/app/apikey
 ### To run
 
 To run this project just run the following command
-npm run start
+npm run ai-cificare
