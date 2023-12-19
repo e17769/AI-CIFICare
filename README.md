@@ -1,6 +1,6 @@
 # AI-CIFICare
 
-Welcome to the glorious world of AI-CIFICare pronounced (see-if-I-care), your one-stop shop for AI-powered shenanigans and side-splitting absurdity! Built with the magic of Node.js and the whimsical whispers of the Gemini API, this project promises to bring a healthy dose of laughter (and maybe a sprinkle of existential dread) to your day.
+Welcome to the glorious world of generative AI with AI-CIFICare (see-if-I-care), your one-stop shop for AI-powered shenanigans and side-splitting absurdity! Built with the magic of Node.js and the whimsical whispers of the Gemini API, this project promises to bring a healthy dose of laughter (and maybe a sprinkle of existential dread) to your day.
 
 ## To install
 

@@ -1,13 +1,15 @@
 {
   "name": "ai-cificare",
   "version": "1.0.6",
-  "description": "Welcome to the glorious world of AI-CIFICare pronounce (see-if-I-care), your one-stop shop for AI-powered shenanigans and side-splitting absurdity! Built with the magic of Node.js and the whimsical whispers of the Gemini API, this project promises to bring a healthy dose of laughter (and maybe a sprinkle of existential dread) to your day.",
+  "description": "Welcome to the glorious world of Google Gemini appication called AI-CIFICare pronounce (see-if-I-care), your one-stop shop for AI-powered shenanigans and side-splitting absurdity! Built with the magic of Node.js and the whimsical whispers of the Gemini API, this project promises to bring a healthy dose of laughter (and maybe a sprinkle of existential dread) to your day.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "Node src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+"Gemini", "google", "AI"
+   ],
   "author": "Ahmed Gadir",
   "license": "ISC",
   "dependencies": {
