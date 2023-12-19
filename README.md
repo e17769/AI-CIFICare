@@ -4,11 +4,11 @@ Welcome to the glorious world of AI-CIFICare pronounced (see-if-I-care), your on
 
 ## To install
 
-First run script once
+First run the npm script (You need to run this script at least once before running the application)
 
 npm install
 
-NOTE: The project contain the @google/generative-ai npm package
+NOTE: The project contains the @google/generative-ai npm package
 
 Also you will need to have our own API key
 
