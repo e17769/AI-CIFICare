@@ -1,6 +1,6 @@
 {
   "name": "ai-cificare",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Welcome to the glorious world of AI-CIFICare pronounce (see-if-I-care), your one-stop shop for AI-powered shenanigans and side-splitting absurdity! Built with the magic of Node.js and the whimsical whispers of the Gemini API, this project promises to bring a healthy dose of laughter (and maybe a sprinkle of existential dread) to your day.",
   "main": "index.js",
   "scripts": {
