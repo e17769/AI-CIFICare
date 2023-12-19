@@ -8,6 +8,10 @@ First run the npm script (You need to run this script at least once before runni
 
 npm install
 
+or
+
+npm install -g nodemon
+
 ### Keys
 
 The project contains the @google/generative-ai npm package Which willl require an API key
