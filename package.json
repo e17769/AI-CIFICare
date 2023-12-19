@@ -1,0 +1,15 @@
+{
+  "name": "ai-cificare",
+  "version": "1.0.1",
+  "description": "Welcome to the glorious world of AI-CIFICare pronounce (see-if-I-care), your one-stop shop for AI-powered shenanigans and side-splitting absurdity! Built with the magic of Node.js and the whimsical whispers of the Gemini API, this project promises to bring a healthy dose of laughter (and maybe a sprinkle of existential dread) to your day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ahmed Gadir",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.3"
+  }
+}
