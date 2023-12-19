@@ -8,9 +8,13 @@ First run the npm script (You need to run this script at least once before runni
 
 npm install
 
-NOTE: The project contains the @google/generative-ai npm package
+### Keys
 
-Also you will need to have our own API key
+The project contains the @google/generative-ai npm package Which willl require an API key
+
+You can get the API key from this link:
+
+https://makersuite.google.com/app/apikey
 
 ### To run
 
