@@ -4,11 +4,28 @@
     <title>Welcome to AI-CIFICare a Gemini application</title>
   </head>
   <body>
-    <script src="gemini.js">
-      alert("Welcome to AI-CIFICare");
+    <script type="module">
+      const { GoogleGenerativeAI } = require('@google/generative-ai');
+
+      // Access your API key as an environment variable (see "Set up your API key" above)
+      const genAI = new GoogleGenerativeAI(
+        'AIzaSyD97EmQMJ5ZIq0PWH9gZB1tTC-FMeDHVig',
+      );
+
+      async function run() {
+        // For text-only input, use the gemini-pro model
+        const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
+
+        const prompt = 'Write a story about a magic backpack.';
+
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        const text = response.text();
+        document.getElementById('maingMsg').innerHTML = text;
+      }
     </script>
     <p id="mainMsg">I think I should see somethng here.</p>
 
-    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="run()">Try it</button>
   </body>
 </html>
